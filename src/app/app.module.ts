@@ -28,6 +28,7 @@ import { MatCardModule } from '@angular/material/card';
 
 // Componentes do projeto
 import { NavComponent } from './components/nav/nav.component';
+import { AppRoutingModule } from './app-route.module';
 
 @NgModule({
   declarations: [
@@ -57,6 +58,9 @@ import { NavComponent } from './components/nav/nav.component';
     MatIconModule,
     MatListModule,
     MatCardModule,
+    
+    // route
+    AppRoutingModule
   ],
   bootstrap: [AppComponent]
 })
